@@ -1,46 +1,29 @@
-# Project Name
-**0x12. C - Singly linked lists**
+## 0x12-singly_linked_lists
 
-## Author's Details
-Name: *David Lenah.*
+This repository contains a collection of C files that work with singly linked lists. Each file serves a specific purpose related to manipulating, printing, and managing singly linked lists. Here's a brief overview of each file:
 
-Email: *lenahdavy@yahoo.com*
+### File Descriptions
 
+1. **0-print_list.c**  
+    defines a function that prints all the elements.
 
+2. **1-list_len.c**  
+    you'll find a function that calculates and returns the number of elements.
 
-##  Requirements
-*   Allowed editors: `vi`, `vim`, `emacs`.
-*   All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`.
-*   Your code should use the `Betty` style. It will be checked using `betty-style.pl` and `betty-doc.pl`.
-*   All your files should end with a new line.
+3. **2-add_node.c**  
+   The function defined in this file inserts a new node at the beginning of a `list_t` list.
 
-*   Use this data structure for this project:
-```
-/**
- * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
- *
- * Description: singly linked list node structure
- */
-typedef struct list_s
-{
-	char *str;
-	unsigned int len;
-	struct list_s *next;
-} list_t;
-```
+4. **3-add_node_end.c**  
+  You'll discover a function that appends a new node to the end of a `list_t` list.
 
-## Project Description
-Learn about linked lists and how they compare with arrays.
+5. **4-free_list.c**  
+    houses a function used for deallocating memory.
 
-* **0. Print list** - Write a function that prints all the elements of a `list_t` list. - `0-print_list.c`.
-* **1. List length** - Write a function that returns the number of elements in a linked `list_t` list. - `1-list_len.c`.
-* **2. Add node** - Write a function that adds a new node at the beginning  of a `list_t` list. - `2-add_node.c`.
-* **3. Add node at the end** - Write a function that adds a new node at the end of a `list_t` list. - `3-add_node_end.c`.
-* **4. Free list** - Write a function that frees a `list_t` list. - `4-free_list.c`.
-* **5. The Hare and the Tortoise** - Write a function that prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the `main` function is executed. - `100-first.c`.
-* **6. Real programmers can write assembly code in any language** - Write a 64-bit program in assembly that prints `Hello, Holberton`, followed by a new line. - `101-hello_holberton.asm`.
+6. **100-first.c**  
+   A function within this file prints a sentence before the `main` function is executed.
 
+7. **101-hello_holberton.asm**  
+   is a 64-bit assembly program.
 
+8. **lists.h**  
+   The header file serves as the place where the `list_t` struct definition.
