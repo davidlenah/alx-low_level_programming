@@ -2,27 +2,19 @@
 **0x12. C - Singly linked lists**
 
 ## Author's Details
-Name: *Wendy Munyasi.*
+Name: *David Lenah.*
 
-Email: *wendymunyasi@gmail.com*
+Email: *lenahdavy@yahoo.com*
 
-Tel: *+254707240068.*
+
 
 ##  Requirements
 *   Allowed editors: `vi`, `vim`, `emacs`.
 *   All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`.
 *   Your code should use the `Betty` style. It will be checked using `betty-style.pl` and `betty-doc.pl`.
 *   All your files should end with a new line.
-*   You are not allowed to use global variables.
-*   No more than 5 functions per file.
-*   The only C standard library functions allowed are `malloc`, `free` and `exit`. Any use of functions like `printf`, `puts`, `calloc`, `realloc` etc… is forbidden unless stated othewise.
-*   You are allowed to use `_putchar`.
-*   The `main.c` files are used to test your functions, but you don’t have to push them to your repo.
-*   The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `lists.h`.
-*   All your header files should be include guarded.
 
-##  More Info
-*   Please use this data structure for this project:
+*   Use this data structure for this project:
 ```
 /**
  * struct list_s - singly linked list
@@ -52,6 +44,3 @@ Learn about linked lists and how they compare with arrays.
 * **6. Real programmers can write assembly code in any language** - Write a 64-bit program in assembly that prints `Hello, Holberton`, followed by a new line. - `101-hello_holberton.asm`.
 
 
-## Collaborate
-
-To collaborate, reach me through my email address wendymunyasi@gmail.com.
